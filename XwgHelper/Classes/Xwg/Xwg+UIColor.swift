@@ -55,8 +55,8 @@ public extension Xwg where Target: UIColor {
         var b: UInt64 = 0x0
         
         Scanner(string: rString).scanHexInt64(&r)
-        Scanner.init(string: gString).scanHexInt64(&g)
-        Scanner.init(string: bString).scanHexInt64(&b)
+        Scanner(string: gString).scanHexInt64(&g)
+        Scanner(string: bString).scanHexInt64(&b)
         
         return rgba(r: Int(r), g: Int(g), b: Int(b), a: 1)
     }

@@ -7,12 +7,23 @@
 //
 
 import UIKit
+import XwgHelper
 
 class ViewController: UIViewController {
+    /// 登录状态
+    @UserDefaultsWrapper("is_login", default: false)
+    var isLogin: Bool
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        if isLogin {
+            print("已经登录，退出。。。")
+            isLogin = false
+        } else {
+            print("未登录，登录。。。")
+            isLogin = true
+        }
     }
 
     override func didReceiveMemoryWarning() {

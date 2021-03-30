@@ -7,17 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		017B5C8DC2C0A4D4CCFD6DDF3CA3D2F0 /* XwgHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D8651D3C854A3B53E75924066FE355 /* XwgHelper-dummy.m */; };
+		05F48D21BFA3AEC60BE09053606B8545 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBC2E5C8BA0225B67DC62AD1A95BCAE /* Function.swift */; };
+		1306B48E59478EBCCA703C032422F117 /* Xwg+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1641EB778A4A592D209467846F9DA240 /* Xwg+UIView.swift */; };
+		18D4F7453A04E1F9C09AD8AFA5BC853A /* Xwg.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE463A66257E42553D3FD05862AA7123 /* Xwg.swift */; };
 		5125A59324BF2C304126720C2138A29C /* Pods-XwgHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB8C65B4E0BFED8FE8FFBF6ECD038F10 /* Pods-XwgHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7014C5346C7518B4D43EE179E1234C63 /* XwgHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 752CFE40D100E3E0E3368BE54F71321B /* XwgHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AD425F49DE1BBA5BFD7AEB1EE111CDE /* XwgHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A16374EBEFF7511C154CFF363219E65 /* XwgHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61A48DF7E0DA60295B550466B20EE5B0 /* Xwg+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4BC37A463268C97E8354FC62F3D3C9 /* Xwg+Array.swift */; };
+		784CE085ADBCE1A50AB97907EB103A64 /* TextInputSpliter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673E4E6753B39F7AA064AC662A4F65C5 /* TextInputSpliter.swift */; };
 		826ED84EC390B61FE95A23B0BD37F319 /* Pods-XwgHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 069B54692D00D8314EE74DC75AF67B36 /* Pods-XwgHelper_Example-dummy.m */; };
-		8E943DD938D2525A5D11B7EA53995885 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B732B35A64AEB45F590F78151A918453 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C8339C24B596EF080F7A2470E13B4BF5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9661E0041B9F25AAB9E672DCC34C7DF8 /* ReplaceMe.swift */; };
+		8E943DD938D2525A5D11B7EA53995885 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		9ADDFBD6A12F753A881333452DAE1999 /* Xwg+Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACF26D74028B804F743341A39FB7192 /* Xwg+Character.swift */; };
+		9CC4D032FF2E63218EDF3B0800C45B80 /* Xwg+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30B0B50C05AFE9DD421EB601B80CFA /* Xwg+Dictionary.swift */; };
+		A0901CB5FAA3ADF6E263ADF104F80D4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		A305C2F114A81101F95B5BF59635EC9F /* Xwg+Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = B532FB1CC15EB181435B15501C8E9784 /* Xwg+Value.swift */; };
+		A731DA3F8BE236ED8F6A4D08FBEC0E74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		C036C729974272B90651110217564F7C /* Xwg+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAED07DC73102FF0C76E6B54FA757F25 /* Xwg+Date.swift */; };
+		C2196F32F93C9325CD32FB2860A744AB /* Xwg+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6444D43CC9E2D70C0222E54577CF9CF0 /* Xwg+UIImage.swift */; };
+		D1BB4BB57A14C597937447E49223B9E1 /* Xwg+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A0D7EAF93141C59B8F316156622D4 /* Xwg+UIColor.swift */; };
+		D513F31927064842128C3841B1D65877 /* UserDefaultsWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9238C1640A662287DE9B87B900E70F2 /* UserDefaultsWrapper.swift */; };
+		DD23EF059D063B4102431DBF8E9B6D9A /* XwgHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2466AB5AD3A73965A2DBAF461DCFB447 /* XwgHelper-dummy.m */; };
+		FE8614BEE41133D9B84FFD4F38693CA9 /* Xwg+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A26659BFEED03960AA5E56978900802 /* Xwg+String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6AD7FEADBF0B3CC698D192FD3AF58D09 /* PBXContainerItemProxy */ = {
+		A4EF207362887A2153A39358E0626D09 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -29,28 +42,41 @@
 /* Begin PBXFileReference section */
 		02D85FBAAA68F66AA758BC554AEB96EC /* Pods-XwgHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XwgHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		069B54692D00D8314EE74DC75AF67B36 /* Pods-XwgHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XwgHelper_Example-dummy.m"; sourceTree = "<group>"; };
+		07AC56578836EEB1AC5D8CE922CEDD65 /* XwgHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XwgHelper.debug.xcconfig; sourceTree = "<group>"; };
+		1641EB778A4A592D209467846F9DA240 /* Xwg+UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xwg+UIView.swift"; sourceTree = "<group>"; };
 		1B6F5289ADB1F875CE610DCF7C64C3D9 /* Pods_XwgHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XwgHelper_Example.framework; path = "Pods-XwgHelper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C047252A30BDBB6453540A53F22B4AF /* XwgHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XwgHelper-prefix.pch"; sourceTree = "<group>"; };
+		1E30B0B50C05AFE9DD421EB601B80CFA /* Xwg+Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xwg+Dictionary.swift"; sourceTree = "<group>"; };
+		2426E9C8A00AA4AA24B752E340BC3768 /* XwgHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XwgHelper-Info.plist"; sourceTree = "<group>"; };
+		2466AB5AD3A73965A2DBAF461DCFB447 /* XwgHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XwgHelper-dummy.m"; sourceTree = "<group>"; };
+		24D7EA8C3A80B2E8169230786D821450 /* XwgHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XwgHelper.modulemap; sourceTree = "<group>"; };
+		2550F54E54ABD23B5BFAA647DC31788F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2D4BC37A463268C97E8354FC62F3D3C9 /* Xwg+Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xwg+Array.swift"; sourceTree = "<group>"; };
 		3219BAE31905606491CBE1D8377AB975 /* Pods-XwgHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XwgHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
 		341E68FDA5337F39F43AD5CEB8D8268C /* Pods-XwgHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XwgHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		44492D748715ABEBE139581BBD1AAD47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		4F9EB6DD0D40549388CFDA3A0E1FA114 /* XwgHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XwgHelper.debug.xcconfig; sourceTree = "<group>"; };
-		7261F9E666BE8F2C344CD81ED2227DCD /* XwgHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XwgHelper-Info.plist"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		352278484C6CB0E14F1C0F865C5A9713 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		393EEDD23335559BAFCF75A645209F30 /* XwgHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XwgHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3A16374EBEFF7511C154CFF363219E65 /* XwgHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XwgHelper-umbrella.h"; sourceTree = "<group>"; };
+		3A26659BFEED03960AA5E56978900802 /* Xwg+String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xwg+String.swift"; sourceTree = "<group>"; };
+		604A0D7EAF93141C59B8F316156622D4 /* Xwg+UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xwg+UIColor.swift"; sourceTree = "<group>"; };
+		6444D43CC9E2D70C0222E54577CF9CF0 /* Xwg+UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xwg+UIImage.swift"; sourceTree = "<group>"; };
+		673E4E6753B39F7AA064AC662A4F65C5 /* TextInputSpliter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextInputSpliter.swift; path = XwgHelper/Classes/TextInputSpliter.swift; sourceTree = "<group>"; };
 		7380361C787C39DBA6A3737137977501 /* XwgHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XwgHelper.framework; path = XwgHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		752CFE40D100E3E0E3368BE54F71321B /* XwgHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XwgHelper-umbrella.h"; sourceTree = "<group>"; };
-		9661E0041B9F25AAB9E672DCC34C7DF8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = XwgHelper/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E060E171D69FA74AAC406B88996F1EE /* Pods-XwgHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XwgHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A25ED4A88D28A53E30B18A6E84FC9C70 /* Pods-XwgHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XwgHelper_Example.modulemap"; sourceTree = "<group>"; };
-		A5FB54096316D884EE8C464C5FBC9C9F /* XwgHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XwgHelper.release.xcconfig; sourceTree = "<group>"; };
-		BE50615E88B5C6FE9CC795EF9EC42DAD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		C1D8651D3C854A3B53E75924066FE355 /* XwgHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XwgHelper-dummy.m"; sourceTree = "<group>"; };
-		C4E5A9311F47343CF8A3D7EC843BF4CF /* XwgHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XwgHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B532FB1CC15EB181435B15501C8E9784 /* Xwg+Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xwg+Value.swift"; sourceTree = "<group>"; };
+		B872CD5AB5A1D8938075FE5453F493D4 /* XwgHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XwgHelper-prefix.pch"; sourceTree = "<group>"; };
+		BBBC2E5C8BA0225B67DC62AD1A95BCAE /* Function.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Function.swift; path = XwgHelper/Classes/Function.swift; sourceTree = "<group>"; };
 		C916A7A4ABE6C2798BA5466BEC3B70DB /* Pods-XwgHelper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XwgHelper_Example-Info.plist"; sourceTree = "<group>"; };
+		CACF26D74028B804F743341A39FB7192 /* Xwg+Character.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xwg+Character.swift"; sourceTree = "<group>"; };
 		CB8C65B4E0BFED8FE8FFBF6ECD038F10 /* Pods-XwgHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XwgHelper_Example-umbrella.h"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		DAD2467C5F5CE00276E4D47D77BC990B /* Pods-XwgHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XwgHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DB3B915482B42E720BC8365275BB3261 /* XwgHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XwgHelper.modulemap; sourceTree = "<group>"; };
+		DAED07DC73102FF0C76E6B54FA757F25 /* Xwg+Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Xwg+Date.swift"; sourceTree = "<group>"; };
+		DE463A66257E42553D3FD05862AA7123 /* Xwg.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Xwg.swift; sourceTree = "<group>"; };
+		E7A45007EAA8E33CC9EA4839ECF2579E /* XwgHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XwgHelper.release.xcconfig; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F9238C1640A662287DE9B87B900E70F2 /* UserDefaultsWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserDefaultsWrapper.swift; path = XwgHelper/Classes/UserDefaultsWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,17 +88,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D39E065951ECDFE9CCAA916136C2D29 /* Frameworks */ = {
+		7A5623A0DECFB024EAFEE772C040D0B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B732B35A64AEB45F590F78151A918453 /* Foundation.framework in Frameworks */,
+				A731DA3F8BE236ED8F6A4D08FBEC0E74 /* Foundation.framework in Frameworks */,
+				A0901CB5FAA3ADF6E263ADF104F80D4B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1EAFAA6F1CD88F100C0AE88181111CF7 /* Xwg */ = {
+			isa = PBXGroup;
+			children = (
+				DE463A66257E42553D3FD05862AA7123 /* Xwg.swift */,
+				2D4BC37A463268C97E8354FC62F3D3C9 /* Xwg+Array.swift */,
+				CACF26D74028B804F743341A39FB7192 /* Xwg+Character.swift */,
+				DAED07DC73102FF0C76E6B54FA757F25 /* Xwg+Date.swift */,
+				1E30B0B50C05AFE9DD421EB601B80CFA /* Xwg+Dictionary.swift */,
+				3A26659BFEED03960AA5E56978900802 /* Xwg+String.swift */,
+				604A0D7EAF93141C59B8F316156622D4 /* Xwg+UIColor.swift */,
+				6444D43CC9E2D70C0222E54577CF9CF0 /* Xwg+UIImage.swift */,
+				1641EB778A4A592D209467846F9DA240 /* Xwg+UIView.swift */,
+				B532FB1CC15EB181435B15501C8E9784 /* Xwg+Value.swift */,
+			);
+			name = Xwg;
+			path = XwgHelper/Classes/Xwg;
+			sourceTree = "<group>";
+		};
+		21A1F99451336829F647847E382D5348 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				352278484C6CB0E14F1C0F865C5A9713 /* LICENSE */,
+				2550F54E54ABD23B5BFAA647DC31788F /* README.md */,
+				393EEDD23335559BAFCF75A645209F30 /* XwgHelper.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		2A3D1CA1E6CFD1AC99D2C3AFFF7546C7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,18 +145,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		53BFDE0607CACF226837DB12871E0906 /* Development Pods */ = {
+		303794D5055B5D85DD0CB184EA7291BA /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FB5C09B249EC833C22DDABCD5C8BCB0B /* XwgHelper */,
+				E7735B61AAC626145C8C1E1BFB6D17DC /* XwgHelper */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -123,59 +187,44 @@
 			path = "Target Support Files/Pods-XwgHelper_Example";
 			sourceTree = "<group>";
 		};
-		A44B36F594CE91F496C9B84BF3019B5C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				44492D748715ABEBE139581BBD1AAD47 /* LICENSE */,
-				BE50615E88B5C6FE9CC795EF9EC42DAD /* README.md */,
-				C4E5A9311F47343CF8A3D7EC843BF4CF /* XwgHelper.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				53BFDE0607CACF226837DB12871E0906 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				303794D5055B5D85DD0CB184EA7291BA /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				2A3D1CA1E6CFD1AC99D2C3AFFF7546C7 /* Products */,
 				6F7286519B1F7079678F3AFDD677DC6A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		CFA18DE941CEF218FD853EC380EB3CFF /* Support Files */ = {
+		E7735B61AAC626145C8C1E1BFB6D17DC /* XwgHelper */ = {
 			isa = PBXGroup;
 			children = (
-				DB3B915482B42E720BC8365275BB3261 /* XwgHelper.modulemap */,
-				C1D8651D3C854A3B53E75924066FE355 /* XwgHelper-dummy.m */,
-				7261F9E666BE8F2C344CD81ED2227DCD /* XwgHelper-Info.plist */,
-				2C047252A30BDBB6453540A53F22B4AF /* XwgHelper-prefix.pch */,
-				752CFE40D100E3E0E3368BE54F71321B /* XwgHelper-umbrella.h */,
-				4F9EB6DD0D40549388CFDA3A0E1FA114 /* XwgHelper.debug.xcconfig */,
-				A5FB54096316D884EE8C464C5FBC9C9F /* XwgHelper.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XwgHelper";
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FB5C09B249EC833C22DDABCD5C8BCB0B /* XwgHelper */ = {
-			isa = PBXGroup;
-			children = (
-				9661E0041B9F25AAB9E672DCC34C7DF8 /* ReplaceMe.swift */,
-				A44B36F594CE91F496C9B84BF3019B5C /* Pod */,
-				CFA18DE941CEF218FD853EC380EB3CFF /* Support Files */,
+				BBBC2E5C8BA0225B67DC62AD1A95BCAE /* Function.swift */,
+				673E4E6753B39F7AA064AC662A4F65C5 /* TextInputSpliter.swift */,
+				F9238C1640A662287DE9B87B900E70F2 /* UserDefaultsWrapper.swift */,
+				21A1F99451336829F647847E382D5348 /* Pod */,
+				EB1A5CE93BD74E3971F31057369DC34A /* Support Files */,
+				1EAFAA6F1CD88F100C0AE88181111CF7 /* Xwg */,
 			);
 			name = XwgHelper;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		EB1A5CE93BD74E3971F31057369DC34A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24D7EA8C3A80B2E8169230786D821450 /* XwgHelper.modulemap */,
+				2466AB5AD3A73965A2DBAF461DCFB447 /* XwgHelper-dummy.m */,
+				2426E9C8A00AA4AA24B752E340BC3768 /* XwgHelper-Info.plist */,
+				B872CD5AB5A1D8938075FE5453F493D4 /* XwgHelper-prefix.pch */,
+				3A16374EBEFF7511C154CFF363219E65 /* XwgHelper-umbrella.h */,
+				07AC56578836EEB1AC5D8CE922CEDD65 /* XwgHelper.debug.xcconfig */,
+				E7A45007EAA8E33CC9EA4839ECF2579E /* XwgHelper.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XwgHelper";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,11 +238,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C89BBA1AC946F3679CEE8A7903E3681 /* Headers */ = {
+		BB64084923FC3A65458952B466B71196 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7014C5346C7518B4D43EE179E1234C63 /* XwgHelper-umbrella.h in Headers */,
+				5AD425F49DE1BBA5BFD7AEB1EE111CDE /* XwgHelper-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +261,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				EB9E17CC7128A1D46EF11C977D594CEF /* PBXTargetDependency */,
+				3B34A1AC4ECFAF42A2E50741F6367D29 /* PBXTargetDependency */,
 			);
 			name = "Pods-XwgHelper_Example";
 			productName = "Pods-XwgHelper_Example";
@@ -221,12 +270,12 @@
 		};
 		64B05054CA90538BA17503D29B921086 /* XwgHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7435E130A1431819379D9A4D28A03CC2 /* Build configuration list for PBXNativeTarget "XwgHelper" */;
+			buildConfigurationList = 2F6BAE6884B56AE9741B0547010132F9 /* Build configuration list for PBXNativeTarget "XwgHelper" */;
 			buildPhases = (
-				9C89BBA1AC946F3679CEE8A7903E3681 /* Headers */,
-				7DC6D4F216B688A0B036A276723665DA /* Sources */,
-				4D39E065951ECDFE9CCAA916136C2D29 /* Frameworks */,
-				2749225F418000B9DD77F0A04914A993 /* Resources */,
+				BB64084923FC3A65458952B466B71196 /* Headers */,
+				25D827EF4ED17B8F00964EAA02CE412C /* Sources */,
+				7A5623A0DECFB024EAFEE772C040D0B6 /* Frameworks */,
+				1BCA0AFECC979CC1794B5F4E02027068 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -266,7 +315,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2749225F418000B9DD77F0A04914A993 /* Resources */ = {
+		1BCA0AFECC979CC1794B5F4E02027068 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -291,23 +340,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DC6D4F216B688A0B036A276723665DA /* Sources */ = {
+		25D827EF4ED17B8F00964EAA02CE412C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8339C24B596EF080F7A2470E13B4BF5 /* ReplaceMe.swift in Sources */,
-				017B5C8DC2C0A4D4CCFD6DDF3CA3D2F0 /* XwgHelper-dummy.m in Sources */,
+				05F48D21BFA3AEC60BE09053606B8545 /* Function.swift in Sources */,
+				784CE085ADBCE1A50AB97907EB103A64 /* TextInputSpliter.swift in Sources */,
+				D513F31927064842128C3841B1D65877 /* UserDefaultsWrapper.swift in Sources */,
+				61A48DF7E0DA60295B550466B20EE5B0 /* Xwg+Array.swift in Sources */,
+				9ADDFBD6A12F753A881333452DAE1999 /* Xwg+Character.swift in Sources */,
+				C036C729974272B90651110217564F7C /* Xwg+Date.swift in Sources */,
+				9CC4D032FF2E63218EDF3B0800C45B80 /* Xwg+Dictionary.swift in Sources */,
+				FE8614BEE41133D9B84FFD4F38693CA9 /* Xwg+String.swift in Sources */,
+				D1BB4BB57A14C597937447E49223B9E1 /* Xwg+UIColor.swift in Sources */,
+				C2196F32F93C9325CD32FB2860A744AB /* Xwg+UIImage.swift in Sources */,
+				1306B48E59478EBCCA703C032422F117 /* Xwg+UIView.swift in Sources */,
+				A305C2F114A81101F95B5BF59635EC9F /* Xwg+Value.swift in Sources */,
+				18D4F7453A04E1F9C09AD8AFA5BC853A /* Xwg.swift in Sources */,
+				DD23EF059D063B4102431DBF8E9B6D9A /* XwgHelper-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EB9E17CC7128A1D46EF11C977D594CEF /* PBXTargetDependency */ = {
+		3B34A1AC4ECFAF42A2E50741F6367D29 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XwgHelper;
 			target = 64B05054CA90538BA17503D29B921086 /* XwgHelper */;
-			targetProxy = 6AD7FEADBF0B3CC698D192FD3AF58D09 /* PBXContainerItemProxy */;
+			targetProxy = A4EF207362887A2153A39358E0626D09 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -410,6 +471,37 @@
 			};
 			name = Debug;
 		};
+		401D8B47C91AE8A47F79E233AA798922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7A45007EAA8E33CC9EA4839ECF2579E /* XwgHelper.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XwgHelper/XwgHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XwgHelper/XwgHelper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XwgHelper/XwgHelper.modulemap";
+				PRODUCT_MODULE_NAME = XwgHelper;
+				PRODUCT_NAME = XwgHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		449C241B55B6BA6537DD500D90D566B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DAD2467C5F5CE00276E4D47D77BC990B /* Pods-XwgHelper_Example.release.xcconfig */;
@@ -443,9 +535,9 @@
 			};
 			name = Release;
 		};
-		AC8F0472A0F8F2B356CFB0E7E98F0D54 /* Debug */ = {
+		4CFA4CC67D26791163327A4617E63C82 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F9EB6DD0D40549388CFDA3A0E1FA114 /* XwgHelper.debug.xcconfig */;
+			baseConfigurationReference = 07AC56578836EEB1AC5D8CE922CEDD65 /* XwgHelper.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -466,7 +558,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -535,40 +627,18 @@
 			};
 			name = Release;
 		};
-		DE0009C8F56532FE84286EE64E3C255C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5FB54096316D884EE8C464C5FBC9C9F /* XwgHelper.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XwgHelper/XwgHelper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XwgHelper/XwgHelper-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XwgHelper/XwgHelper.modulemap";
-				PRODUCT_MODULE_NAME = XwgHelper;
-				PRODUCT_NAME = XwgHelper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2F6BAE6884B56AE9741B0547010132F9 /* Build configuration list for PBXNativeTarget "XwgHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CFA4CC67D26791163327A4617E63C82 /* Debug */,
+				401D8B47C91AE8A47F79E233AA798922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -583,15 +653,6 @@
 			buildConfigurations = (
 				110116065F70412AB0EEE1B43667120F /* Debug */,
 				449C241B55B6BA6537DD500D90D566B9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7435E130A1431819379D9A4D28A03CC2 /* Build configuration list for PBXNativeTarget "XwgHelper" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AC8F0472A0F8F2B356CFB0E7E98F0D54 /* Debug */,
-				DE0009C8F56532FE84286EE64E3C255C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

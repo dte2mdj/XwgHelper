@@ -1,7 +1,7 @@
 {
   "name": "XwgHelper",
   "version": "0.1.0",
-  "summary": "A short description of XwgHelper.",
+  "summary": "常用小方法封装",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/dte2mdj/XwgHelper",
   "license": {
@@ -18,5 +18,8 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "XwgHelper/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "XwgHelper/Classes/**/*",
+  "frameworks": "UIKit",
+  "swift_version": "5.0"
 }

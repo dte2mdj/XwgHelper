@@ -24,6 +24,8 @@ class ViewController: UIViewController {
             print("未登录，登录。。。")
             isLogin = true
         }
+        
+        view.backgroundColor = UIColor.xwg.rgba(r: 200, g: 10, b: 20)
     }
 
     override func didReceiveMemoryWarning() {

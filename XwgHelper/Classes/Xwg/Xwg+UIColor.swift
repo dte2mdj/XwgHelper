@@ -16,7 +16,7 @@ public extension Xwg where Target: UIColor {
     ///
     /// - Parameter hex: 需要转换的色值,支持缩写色值（如果无效，则返回黑色即：r,g,b均等于0）
     /// - Returns: Rgba结构体
-    static func fromHex(_ hex: String) -> UIColor {
+    static func fromHex(_ hex: String, alpha: CGFloat = 1) -> UIColor {
         
         /// 1、对hexString进行处理
         // 1.1 去除左右空格
@@ -27,11 +27,7 @@ public extension Xwg where Target: UIColor {
         // 1.3 对有效值进行判断处理
         // 1.3.1 缩写色值进行复原(abc对应aabbcc 例：829 == 882299、a83 == aa8833)
         if cString.count == 3 {
-            var tmpString: String = ""
-            for character in cString {
-                tmpString += "\(character)\(character)"
-            }
-            cString = tmpString
+            cString = cString.reduce("") { $0 + String(repeating: $1, count: 2) }
         }
             // 1.3.2 取6位有效色值
         else if cString.count >= 6 {
@@ -58,7 +54,7 @@ public extension Xwg where Target: UIColor {
         Scanner(string: gString).scanHexInt64(&g)
         Scanner(string: bString).scanHexInt64(&b)
         
-        return rgba(r: Int(r), g: Int(g), b: Int(b), a: 1)
+        return rgba(r: Int(r), g: Int(g), b: Int(b), a: alpha)
     }
     
     /// rgba 颜色 (默认：黑色)

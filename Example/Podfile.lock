@@ -1,0 +1,16 @@
+PODS:
+  - XwgHelper (0.1.0)
+
+DEPENDENCIES:
+  - XwgHelper (from `../`)
+
+EXTERNAL SOURCES:
+  XwgHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XwgHelper: 4e3c27294f5cf5af5ec151ff45e67ebc33a4e9fe
+
+PODFILE CHECKSUM: 9f2de9805a2110eaf3e14518832a055e04547846
+
+COCOAPODS: 1.10.0

@@ -1,0 +1,6 @@
+framework module XwgHelper {
+  umbrella header "XwgHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}
